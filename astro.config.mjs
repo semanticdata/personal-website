@@ -7,7 +7,8 @@ import pagefind from "astro-pagefind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://semanticdata.github.io/astro-micro/",
+  site: "https://semanticdata.github.io",
+  base: "astro-micro",
   integrations: [tailwind(), sitemap(), mdx(), pagefind()],
   markdown: {
     shikiConfig: {
