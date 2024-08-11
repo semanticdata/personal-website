@@ -13,6 +13,11 @@ export const HOME: Metadata = {
   DESCRIPTION: "Problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US.",
 };
 
+export const ABOUT: Metadata = {
+  TITLE: "About Me",
+  DESCRIPTION: "Hi, I'm Miguel Pimentel. Problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US.",
+};
+
 export const BLOG: Metadata = {
   TITLE: "Blog",
   DESCRIPTION: "A collection of articles on topics I am passionate about.",
