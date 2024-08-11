@@ -1,0 +1,23 @@
+/* BADGES */
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.badge {
+  filter: opacity(0.8);
+  flex-shrink: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.badge:hover {
+  filter: opacity(1);
+  transform: scale(1.1);
+}
+
+.badge img {
+  border-radius: 4px;
+  height: 1.5rem;
+}
