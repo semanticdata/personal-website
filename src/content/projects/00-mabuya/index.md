@@ -124,6 +124,6 @@ The icons used throughout the site are kindly provided by [UXWing](https://uxwin
 
 ## ©️ License
 
-Source code in this repository is available under the [MIT License](LICENSE).
+Source code in this project is available under the [MIT License](LICENSE).
 
 [^1]: *Mabuya hispaniolae*'s conservation status is *Critically endangered, possibly extinct*.  
