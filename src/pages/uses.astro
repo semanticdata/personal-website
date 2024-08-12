@@ -1,0 +1,280 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import { SITE, USES, SOCIALS } from "@consts";
+import Link from "@components/Link.astro";
+---
+
+<Layout title={USES.TITLE} description={USES.DESCRIPTION}>
+  <Container>
+    <aside data-pagefind-ignore>
+      <h1 class="animate font-semibold text-black dark:text-white">Uses</h1>
+      <div class="space-y-16">
+        <section class="animate space-y-4">
+          <article class="space-y-4">
+            <span class="animate">
+              <blockquote>
+                <p>
+                  A non-comprehensive, non-exhaustive list of the hardware and
+                  software I use on a day-to-day basis. It's inspired by the <Link
+                    href="https://uses.tech/">uses pages</Link
+                  > idea.
+                </p>
+              </blockquote>
+            </span>
+          </article>
+        </section>
+
+        <section class="animate space-y-4">
+          <h2 class="font-semibold text-black dark:text-white">Hardware</h2>
+          <article class="space-y-4">
+            <span class="animate">
+              <ul>
+                <li>
+                  <Link
+                    href="https://www.notebookcheck.net/Lenovo-ThinkPad-T480s-20L8S02D00.294734.0.html"
+                    >Lenovo Thinkpad T480s</Link
+                  > – Laptop
+                </li>
+                <li>
+                  <Link
+                    href="https://www.logitech.com/en-us/products/mice/m575-ergo-wireless-trackball"
+                    >Logi M575</Link
+                  > – Mouse
+                </li>
+                <li>
+                  <Link
+                    href="https://info.skullcandy.com/Support?Dest=hc%2Fen-us%2Farticles%2F360034534854-Crusher-ANC-Wireless"
+                    >Skullcandy Crusher ANC</Link
+                  > – Headphones
+                </li>
+              </ul>
+            </span>
+          </article>
+        </section>
+
+        <section class="animate space-y-4">
+          <h2 class="font-semibold text-black dark:text-white">Software</h2>
+          <article class="space-y-4">
+            <span class="animate">
+              <ul>
+                <li>
+                  <Link href="https://obsidian.md/">Obsidian</Link> – Markdown Text
+                  Editor
+                </li>
+                <li>
+                  <Link href="https://code.visualstudio.com/"
+                    >Visual Studio Code</Link
+                  > – Code Editor
+                </li>
+                <li>
+                  <Link href="https://logseq.com/">Logseq</Link> - Knowledge Management
+                </li>
+                <li>
+                  <Link href="https://raindrop.io/">Raindrop</Link> – Bookmarks Manager
+                </li>
+                <li>
+                  <Link href="https://ticktick.com/">TickTick</Link> - Tasks Manager
+                </li>
+              </ul>
+            </span>
+          </article>
+        </section>
+
+        <section class="animate space-y-4">
+          <h3 class="font-semibold text-black dark:text-white">
+            Notable Visual Studio Code Extensions
+          </h3>
+          <article class="space-y-4">
+            <span class="animate">
+              <ul>
+                <li>
+                  <Link
+                    href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+                    >Prettier</Link
+                  > – Opinionated Code Formatter.
+                </li>
+                <li>
+                  <Link
+                    href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one"
+                    >Markdown All in One</Link
+                  > – Markdown Support.
+                </li>
+                <li>
+                  <Link
+                    href="https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen"
+                    >Markwhen</Link
+                  > – View/Edit Markwhen documents.
+                </li>
+                <li>
+                  <Link
+                    href="https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode"
+                    >Markmap</Link
+                  > – Preview markdown files as Markmap.
+                </li>
+                <li>
+                  <Link
+                    href="https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs"
+                    >GistPad</Link
+                  > – Edit GitHub Gists and Repositories remotely.
+                </li>
+                <li>
+                  <Link
+                    href="https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager"
+                    >Project Manager</Link
+                  > – Easily change current Project/Folder.
+                </li>
+                <li>
+                  <Link
+                    href="https://marketplace.visualstudio.com/items?itemName=ahgood.shift-shift"
+                    >shift shift</Link
+                  > – Provides shortcuts for <kbd>shift</kbd> + <kbd>shift</kbd>
+                  and <kbd>ctrl</kbd> + <kbd>ctrl</kbd>.
+                </li>
+                <li>
+                  <Link
+                    href="https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek"
+                    >CSS Peek</Link
+                  > – Introduces `Go To Definition` and `Go To Symbol in Workspace`
+                  support.
+                </li>
+              </ul>
+            </span>
+          </article>
+        </section>
+
+        <section class="animate space-y-4">
+          <h3 class="font-semibold text-black dark:text-white">
+            Notable Obsidian Extensions
+          </h3>
+          <article class="space-y-4">
+            <span class="animate">
+              <ul>
+                <li>
+                  <Link href="https://github.com/scambier/obsidian-omnisearch"
+                    >Omnisearch</Link
+                  > – Better Search Engine.
+                </li>
+                <li>
+                  <Link href="https://github.com/denolehov/obsidian-git"
+                    >Obsidian Git</Link
+                  > – Run Git commands from Obsidian.
+                </li>
+                <li>
+                  <Link href="https://github.com/argenos/nldates-obsidian"
+                    >Natural Language Dates</Link
+                  > – Adds `@today` format to dates.
+                </li>
+                <li>
+                  <Link href="https://github.com/platers/obsidian-linter"
+                    >Linter</Link
+                  > – Customizable Markdown Linter similar to Prettier.
+                </li>
+                <li>
+                  <Link
+                    href="https://github.com/timhor/obsidian-editor-shortcuts"
+                    >Editor Shortcuts</Link
+                  > – Adds shortcuts usually found in Code Editors.
+                </li>
+                <li>
+                  <Link
+                    href="https://github.com/ObsidianPublisher/obsidian-github-publisher"
+                    >GitHub Publisher</Link
+                  > – Publish your notes to a preconfigured repository.
+                </li>
+                <li>
+                  <Link href="https://github.com/Qwyntex/doubleshift"
+                    >DoubleShift</Link
+                  > – Provides shortcuts for <kbd>shift</kbd> + <kbd>shift</kbd>
+                  and <kbd>ctrl</kbd> + <kbd>ctrl</kbd>.
+                </li>
+                <li>
+                  <Link
+                    href="https://github.com/mgmeyers/obsidian-contextual-typography"
+                    >Contextual Typography</Link
+                  > – Allows for custom insertion of code at the block level.
+                </li>
+              </ul>
+            </span>
+          </article>
+        </section>
+
+        <section class="animate space-y-4">
+          <h3 class="font-semibold text-black dark:text-white">
+            Notable Windows Programs
+          </h3>
+          <article class="space-y-4">
+            <span class="animate">
+              <ul>
+                <li>
+                  <Link href="https://www.voidtools.com/">Everything</Link> – Locate
+                  files and folders by name instantly.
+                </li>
+                <li>
+                  <Link href="https://github.com/QL-Win/QuickLook"
+                    >QuickLook</Link
+                  > – Bring macOS "Quick Look" feature to Windows.
+                </li>
+                <li>
+                  <Link href="https://github.com/microsoft/PowerToys"
+                    >PowerToys</Link
+                  > – Windows system utilities to maximize productivity.
+                </li>
+                <li>
+                  <Link href="https://github.com/File-New-Project/EarTrumpet"
+                    >EarTrumpet</Link
+                  > – Volume control, multi-channel discovery, default playback device
+                  management.
+                </li>
+                <li>
+                  <Link href="https://github.com/torakiki/pdfsam">PDFsam</Link> –
+                  PDFsam, a desktop application to split, merge, mix, rotate PDF
+                  files and extract pages.
+                </li>
+              </ul>
+            </span>
+          </article>
+        </section>
+
+        <section class="animate space-y-4">
+          <h2 class="font-semibold text-black dark:text-white">
+            Let's Connect
+          </h2>
+          <article class="space-y-4">
+            <span class="animate">
+              <p>
+                If you want to get in touch with me about something or just to
+                say hi, reach out on social media or send me an email.
+              </p>
+
+              <ul class="not-prose flex flex-wrap gap-2">
+                {
+                  SOCIALS.map((SOCIAL) => (
+                    <li class="flex gap-x-2 text-nowrap">
+                      <Link
+                        href={SOCIAL.HREF}
+                        external
+                        aria-label={`${SITE.TITLE} on ${SOCIAL.NAME}`}
+                      >
+                        {SOCIAL.NAME}
+                      </Link>
+                      {"/"}
+                    </li>
+                  ))
+                }
+                <li class="line-clamp-1">
+                  <Link
+                    href={`mailto:${SITE.EMAIL}`}
+                    aria-label={`Email ${SITE.TITLE}`}
+                  >
+                    Email
+                  </Link>
+                </li>
+              </ul>
+            </span>
+          </article>
+        </section>
+      </div>
+    </aside>
+  </Container>
+</Layout>
