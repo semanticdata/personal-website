@@ -2,7 +2,7 @@
 title: "Publish a Logseq Graph to GitHub Pages"
 description: "Step-by-step guide on how to publish your Logseq graph to GitHub Pages."
 date: "2024-07-22"
-draft: true
+draft: false
 ---
 
 <div style="display:flex; justify-content:space-between; font-size:var(--size-step-1); border:1px solid var(--color-primary); padding: 0.5rem 1rem;">
