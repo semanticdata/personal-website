@@ -1,10 +1,11 @@
-# Introducing [Astro Micro 🔬](https://astro-micro.vercel.app/)
+# [🦝 MiguelPimentel.do](https://miguelpimentel.do/)
 
-Astro Micro is an accessible theme for Astro. It's a fork of [Mark Horn's](https://github.com/markhorn-dev) popular theme [Astro Nano](https://astro-nano-demo.vercel.app/). Like Nano, Micro comes with zero frameworks installed.
+Personal website and blog. Contains a short list of my projects, blog posts, and tutorials. Built using [Astro Micro 🔬](https://astro-micro.vercel.app/).
 
-Micro adds features like [Pagefind](https://pagefind.app) for search, [Giscus](https://giscus.app) for comments, and more. For a full list of changes, see this [blog post](https://astro-micro.vercel.app/blog/00-micro-changelog).
+A few adjustments were made to the original theme. Here's a short list:
 
-Micro still comes with everything great about Nano — full type safety, a sitemap, an RSS feed, and Markdown + MDX support. Styled with TailwindCSS and preconfigured with system, light, and dark themes.
+- Used "Email" instead of the actual email address under the "Let's Connect" section.
+- Created a new "About" page.
 
 ---
 
