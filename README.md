@@ -5,8 +5,10 @@ Personal website and blog. Contains a short list of my projects, blog posts, and
 A few adjustments were made to the original theme. Here's a short list:
 
 - Used "Email" instead of the actual email address under the "Let's Connect" section.
-- Created a new "About" page.
+- Created new "About" page.
+- Created new "Uses" page.
+- Created new "Tutorials" section.
 
----
+## © License
 
-![astro-micro-image](https://github.com/trevortylerlee/astro-micro/assets/49603972/ec5bc96a-3e96-4af1-a182-7711b54c5ef6)
+The code in this project is available under the [MIT License](LICENSE).
