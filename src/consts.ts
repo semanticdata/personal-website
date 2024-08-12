@@ -6,6 +6,7 @@ export const SITE: Site = {
   EMAIL: "contact@miguelpimentel.com",
   NUM_POSTS_ON_HOMEPAGE: 5,
   NUM_PROJECTS_ON_HOMEPAGE: 5,
+  NUM_TUTORIALS_ON_HOMEPAGE: 5,
 };
 
 export const HOME: Metadata = {
@@ -21,6 +22,11 @@ export const ABOUT: Metadata = {
 export const BLOG: Metadata = {
   TITLE: "Blog",
   DESCRIPTION: "A collection of articles on topics I am passionate about.",
+};
+
+export const TUTORIALS: Metadata = {
+  TITLE: "Tutorials",
+  DESCRIPTION: "A collection of turorials I've written.",
 };
 
 export const PROJECTS: Metadata = {
