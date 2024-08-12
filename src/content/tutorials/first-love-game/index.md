@@ -2,7 +2,7 @@
 title: "Creating a Basic Shooter with LÖVE 2D"
 description: "Learn how to create a basic shooter game in LÖVE 2D."
 date: "2024-09-09"
-draft: false
+draft: true
 ---
 
 ## Introduction
