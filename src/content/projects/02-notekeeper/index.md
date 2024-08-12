@@ -7,9 +7,9 @@ repoURL: "https://github.com/semanticdata/notekeeper"
 draft: false
 ---
 
-<h1><img src="src/icons/icon64.png" height="28px" width="28px" /> Notekeeper</h1>
+<h1><img src="https://raw.githubusercontent.com/semanticdata/notekeeper/main/src/icons/icon64.png" height="28px" width="28px" /> Notekeeper</h1>
 
-![Mozilla Add-on](https://img.shields.io/amo/v/newtab-notes@semanticdata) ![Add-on rating](https://img.shields.io/amo/rating/newtab-notes@semanticdata) ![Add-on downloads](https://img.shields.io/amo/dw/newtab-notes@semanticdata) ![Add-on users](https://img.shields.io/amo/users/newtab-notes@semanticdata) ![License](https://img.shields.io/github/license/semanticdata/firefox-new-tab-notes)
+<!-- ![Mozilla Add-on](https://img.shields.io/amo/v/newtab-notes@semanticdata) ![Add-on rating](https://img.shields.io/amo/rating/newtab-notes@semanticdata) ![Add-on downloads](https://img.shields.io/amo/dw/newtab-notes@semanticdata) ![Add-on users](https://img.shields.io/amo/users/newtab-notes@semanticdata) ![License](https://img.shields.io/github/license/semanticdata/firefox-new-tab-notes) -->
 
 Notekeeper is a Firefox extension that transforms the new tab into a minimalist, auto-saving text editor. It now comes with a new sidebar companion! If you are curious, go check out the [demo](https://semanticdata.github.io/notekeeper/).
 
@@ -25,7 +25,7 @@ Notekeeper is a Firefox extension that transforms the new tab into a minimalist,
 
 ## 🖼 Screenshot
 
-![screenshot](screenshot.png)
+![screenshot](https://raw.githubusercontent.com/semanticdata/notekeeper/main/screenshot.png)
 
 ## 💜 Acknowledgments
 
@@ -33,4 +33,4 @@ This extension is based on [Tab Notes](https://github.com/nsht/tab_notes). It ha
 
 ## © License
 
-Source code in this repository is available under the [MIT License](LICENSE).
+Source code for this project is available under the [MIT License](LICENSE).
