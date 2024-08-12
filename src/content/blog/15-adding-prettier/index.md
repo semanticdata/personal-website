@@ -2,7 +2,7 @@
 title: "Adding Prettier to Your Project"
 description: "How to add Prettier to your project."
 date: "2024-07-01"
-draft: false
+draft: true
 ---
 
 [Prettier](https://prettier.io/) is an opinionated code formatter that automatically enforces consistent style rules for code, reducing formatting errors and improving readability.

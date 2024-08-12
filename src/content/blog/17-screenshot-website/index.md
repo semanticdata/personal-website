@@ -2,7 +2,7 @@
 title: "How to Consistently Take a Website Screenshot"
 description: "How to consistently take screenshots of a website."
 date: "2024-07-29"
-draft: false
+draft: true
 ---
 
 Taking a precise screenshot of an HTML element in your browser's Developer Tools can be incredibly useful for web development and design. Follow these steps to capture a node screenshot with a custom Device Pixel Ratio (DPR) and resolution.
