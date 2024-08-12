@@ -9,8 +9,7 @@ draft: false
 
 Notekeeper is a Firefox extension that transforms the new tab into a minimalist, auto-saving text editor. It now comes with a new sidebar companion! If you are curious, go check out the [demo](https://semanticdata.github.io/notekeeper/).
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-note/">
-<img src="https://raw.githubusercontent.com/semanticdata/text-revealer-firefox-extension/master/firefox.png" alt="firefox addon" /></a>
+<img class="rounded-md" src="https://raw.githubusercontent.com/semanticdata/notekeeper/main/screenshot.png" alt="screenshot" />
 
 ## ✨ Features
 
@@ -19,9 +18,8 @@ Notekeeper is a Firefox extension that transforms the new tab into a minimalist,
 - Integrated with [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API). Access your notes while working offline, and sync them across browser instances with [Firefox Sync](https://www.mozilla.org/en-US/firefox/features/sync/), or [Chrome Sync](https://support.google.com/chrome/answer/185277).
 - New Dark/Light themes. (includes toggle button)
 
-## 🖼 Screenshot
-
-![screenshot](https://raw.githubusercontent.com/semanticdata/notekeeper/main/screenshot.png)
+<a href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-note/">
+<img src="https://raw.githubusercontent.com/semanticdata/text-revealer-firefox-extension/master/firefox.png" alt="firefox addon" /></a>
 
 ## 💜 Acknowledgments
 
