@@ -1,6 +1,6 @@
 ---
 title: "10 Fun Facts About the Dominican Republic"
-description: "10 Fun facts about the Dominican Republic."
+description: "Uncover the lively culture, breathtaking scenery, and distinctive traditions of the Dominican Republic through these 10 fun facts."
 date: "2024-10-10"
 draft: false
 ---
