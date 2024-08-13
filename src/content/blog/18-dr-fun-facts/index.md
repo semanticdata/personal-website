@@ -2,7 +2,7 @@
 title: "10 Fun Facts About the Dominican Republic"
 description: "10 Fun facts about the Dominican Republic."
 date: "2024-10-10"
-draft: true
+draft: false
 ---
 
 When people think about the Dominican Republic, their minds often drift to images of pristine white sand beaches, swaying palm trees, and the warm, turquoise waters of the Caribbean Sea. While these picturesque scenes are undeniably a part of the country's charm, there's much more to the Dominican Republic than its stunning coastline.
