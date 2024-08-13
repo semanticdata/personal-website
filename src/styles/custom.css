@@ -1,4 +1,4 @@
-/* BADGES */
+/* BADGES - ABOUT PAGE */
 .badges {
   display: flex;
   flex-wrap: wrap;
@@ -22,8 +22,8 @@
   height: 1.5rem;
 }
 
-/* USES BADGES */
+/* BADGES - USES PAGE */
 .badge-link {
-  height: 36px;
   display: inline-block;
+  height: 36px !important;
 }
