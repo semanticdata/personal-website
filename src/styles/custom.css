@@ -25,5 +25,7 @@
 /* BADGES - USES PAGE */
 .badge-link {
   display: inline-block;
-  height: 36px !important;
+}
+.badge-icon {
+  height: 36px;
 }

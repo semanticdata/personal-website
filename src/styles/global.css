@@ -118,9 +118,3 @@ pre {
 .copy-code:active {
   @apply scale-90 transition-transform;
 }
-
-/* BADGES - USES PAGE */
-.badge-link {
-  display: inline-block;
-  height: 36px !important;
-}
