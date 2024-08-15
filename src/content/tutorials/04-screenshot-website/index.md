@@ -1,6 +1,6 @@
 ---
-title: "How to Consistently Take a Website Screenshot"
-description: "How to consistently take screenshots of a website."
+title: "Consistently Take a Website Screenshot"
+description: "How to take consistent, precise screenshots of a website."
 date: "2024-07-29"
 draft: false
 ---
