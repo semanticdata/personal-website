@@ -1,6 +1,6 @@
 # [🦝 MiguelPimentel.do](https://miguelpimentel.do/)
 
-Personal website and blog. Contains a short list of my projects, blog posts, and tutorials. Built using [Astro Micro 🔬](https://astro-micro.vercel.app/).
+Personal website and blog. Contains a short list of my projects, blog posts, and tutorials. Built using [Astro Micro](https://github.com/trevortylerlee/astro-micro).
 
 A few adjustments were made to the original theme. Here's a short list:
 
