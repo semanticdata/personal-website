@@ -8,6 +8,7 @@ A few adjustments were made to the original theme. Here's a short list:
 - Created new "About" page.
 - Created new "Uses" page.
 - Created new "Tutorials" section.
+- Created new `LetsConnect.astro` component using the "Let's Connect".
 
 ## © License
 
