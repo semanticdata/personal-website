@@ -1,8 +1,9 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import { SITE, ABOUT, SOCIALS } from "@consts";
+import { SITE, ABOUT } from "@consts";
 import Link from "@components/Link.astro";
+import LetsConnect from "@components/LetsConnect.astro";
 ---
 
 <Layout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
@@ -103,9 +104,7 @@ import Link from "@components/Link.astro";
         </section>
 
         <section class="animate space-y-6">
-          <h2 class="font-semibold">
-            Chronic Curiosity
-          </h2>
+          <h2 class="font-semibold">Chronic Curiosity</h2>
           <article class="space-y-4">
             <span class="animate">
               <p>
@@ -197,42 +196,7 @@ import Link from "@components/Link.astro";
           </article>
         </section>
 
-        <section class="animate space-y-4">
-          <h2 class="font-semibold">
-            Let's Connect
-          </h2>
-          <article>
-            <p>If you'd like to reach out, here are a few options:</p>
-          </article>
-          <ul class="not-prose flex flex-wrap gap-2">
-            {
-              SOCIALS.map((SOCIAL) => (
-                <li class="flex gap-x-2 text-nowrap">
-                  <Link
-                    href={SOCIAL.HREF}
-                    external
-                    aria-label={`${SITE.TITLE} on ${SOCIAL.NAME}`}
-                  >
-                    {SOCIAL.NAME}
-                  </Link>
-                  {"/"}
-                </li>
-              ))
-            }
-            <li class="line-clamp-1">
-              <Link
-                href={`mailto:${SITE.EMAIL}`}
-                aria-label={`Email ${SITE.TITLE}`}
-              >
-                Email
-              </Link>
-            </li>
-          </ul>
-          <p>
-            You would probably find me in other places, too, provided you look
-            hard enough.
-          </p>
-        </section>
+        <LetsConnect />
       </div>
     </aside>
   </Container>
