@@ -8,9 +8,9 @@ import Link from "@components/Link.astro";
 <Layout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
   <Container>
     <aside data-pagefind-ignore>
-      <h1 class="animate font-semibold text-black dark:text-white">About Me</h1>
+      <h1 class="animate font-semibold">About Me</h1>
       <div class="space-y-16">
-        <section>
+        <section class="animate space-y-6">
           <article class="space-y-4">
             <img
               src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/database-1717263783-0.webp"
@@ -87,9 +87,10 @@ import Link from "@components/Link.astro";
 
             <span class="animate">
               <p>
-                Hello, my name is Miguel Pimentel. I am an engineering project manager and self-taught hobby
-                developer with too many ideas and not enough time. I was born in
-                the Dominican Republic, and currently live in Minnesota, US.
+                Hello, my name is Miguel Pimentel. I am an engineering project
+                manager and self-taught hobby developer with too many ideas and
+                not enough time. I was born in the Dominican Republic, and
+                currently live in Minnesota, US.
               </p>
               <p>
                 I think a lot, work a lot, have existential crises, and know
@@ -99,8 +100,10 @@ import Link from "@components/Link.astro";
               </p>
             </span>
           </article>
+        </section>
 
-          <h2 class="font-semibold text-black dark:text-white">
+        <section class="animate space-y-6">
+          <h2 class="font-semibold">
             Chronic Curiosity
           </h2>
           <article class="space-y-4">
@@ -142,8 +145,10 @@ import Link from "@components/Link.astro";
               </p>
             </span>
           </article>
+        </section>
 
-          <h2 class="font-semibold text-black dark:text-white"> My Day Job </h2>
+        <section class="animate space-y-6">
+          <h2 class="font-semibold">My Day Job</h2>
           <article class="space-y-4">
             <span class="animate">
               <p>
@@ -152,7 +157,19 @@ import Link from "@components/Link.astro";
                 </b>
                 for the <Link href="https://www.crystalmn.gov/"
                   >City of Crystal, MN
-                </Link>. Some of my duties include preparing detailed plans, specifications, solicitations, proposals for bids, and cost estimates; managing contracts from bid solicitation through project completion; and inspecting ongoing and completed construction for compliance with those specifications. I also help maintain accurate project records, review as-built plans, and oversee right-of-way management and permitting. My role involves working closely with various private and public agencies, utilizing GIS and CAD systems, and assisting with <Link href="https://www.jwcontap.org/">Joint Water Commission</Link> and <Link href="https://bwsr.state.mn.us/watershed-districts">Watershed District</Link> functions.
+                </Link>. Some of my duties include preparing detailed plans,
+                specifications, solicitations, proposals for bids, and cost
+                estimates; managing contracts from bid solicitation through
+                project completion; and inspecting ongoing and completed
+                construction for compliance with those specifications. I also
+                help maintain accurate project records, review as-built plans,
+                and oversee right-of-way management and permitting. My role
+                involves working closely with various private and public
+                agencies, utilizing GIS and CAD systems, and assisting with <Link
+                  href="https://www.jwcontap.org/">Joint Water Commission</Link
+                > and <Link href="https://bwsr.state.mn.us/watershed-districts"
+                  >Watershed District</Link
+                > functions.
               </p>
               <p>
                 With over 10 years of experience in public construction, I have
@@ -178,43 +195,43 @@ import Link from "@components/Link.astro";
               </p>
             </span>
           </article>
+        </section>
 
-          <section class="animate space-y-4">
-            <h2 class="font-semibold text-black dark:text-white">
-              Let's Connect
-            </h2>
-            <article>
-              <p> If you'd like to reach out, here are a few options: </p>
-            </article>
-            <ul class="not-prose flex flex-wrap gap-2">
-              {
-                SOCIALS.map((SOCIAL) => (
-                  <li class="flex gap-x-2 text-nowrap">
-                    <Link
-                      href={SOCIAL.HREF}
-                      external
-                      aria-label={`${SITE.TITLE} on ${SOCIAL.NAME}`}
-                    >
-                      {SOCIAL.NAME}
-                    </Link>
-                    {"/"}
-                  </li>
-                ))
-              }
-              <li class="line-clamp-1">
-                <Link
-                  href={`mailto:${SITE.EMAIL}`}
-                  aria-label={`Email ${SITE.TITLE}`}
-                >
-                  Email
-                </Link>
-              </li>
-            </ul>
-            <p>
-              You would probably find me in other places, too, provided you look
-              hard enough.
-            </p>
-          </section>
+        <section class="animate space-y-4">
+          <h2 class="font-semibold">
+            Let's Connect
+          </h2>
+          <article>
+            <p>If you'd like to reach out, here are a few options:</p>
+          </article>
+          <ul class="not-prose flex flex-wrap gap-2">
+            {
+              SOCIALS.map((SOCIAL) => (
+                <li class="flex gap-x-2 text-nowrap">
+                  <Link
+                    href={SOCIAL.HREF}
+                    external
+                    aria-label={`${SITE.TITLE} on ${SOCIAL.NAME}`}
+                  >
+                    {SOCIAL.NAME}
+                  </Link>
+                  {"/"}
+                </li>
+              ))
+            }
+            <li class="line-clamp-1">
+              <Link
+                href={`mailto:${SITE.EMAIL}`}
+                aria-label={`Email ${SITE.TITLE}`}
+              >
+                Email
+              </Link>
+            </li>
+          </ul>
+          <p>
+            You would probably find me in other places, too, provided you look
+            hard enough.
+          </p>
         </section>
       </div>
     </aside>
