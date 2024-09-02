@@ -10,6 +10,8 @@ A few adjustments were made to the original [Astro Micro](https://github.com/tre
 - Created new `LetsConnect.astro` component using the "Let's Connect" section.
 - Used "Email" instead of the actual email address under the "Let's Connect" section.
 
+![Pagespeed results](pagespeed-mp.svg)
+
 ## © License
 
 The code in this project is available under the [MIT License](LICENSE).
