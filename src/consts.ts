@@ -11,7 +11,7 @@ export const SITE: Site = {
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US.",
+  DESCRIPTION: "Miguel Pimentel – problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US.",
 };
 
 export const ABOUT: Metadata = {
