@@ -7,6 +7,7 @@ import Link from "@components/Link.astro";
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import LetsConnect from "@components/LetsConnect.astro";
+import { Image } from "astro:assets";
 
 const blog = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
@@ -34,10 +35,13 @@ const projects: CollectionEntry<"projects">[] = (
           href="https://publicdomainreview.org/collection/maps-of-the-lower-mississippi-harold-fisk/"
           target="_blank"
         >
-          <img
+          <Image
             class="h-auto max-w-full rounded-lg shadow-lg dark:shadow-gray-800"
-            src="https://raw.githubusercontent.com/semanticdata/public-test/main/PNG/banner-new_mississippi_river_fjdmww.png"
+            src="/banner-mississippi.webp"
             alt="Map drawn by Harold Fisk for the US Army Corps of Engineers"
+            height="295"
+            width="696"
+            loading="eager"
           /></a
         >
         <h1 class="animate font-semibold">Hi, I’m Miguel!</h1>
