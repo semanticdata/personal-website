@@ -1,16 +1,17 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import { SITE, ABOUT, SOCIALS } from "@consts";
+import { ABOUT } from "@consts";
 import Link from "@components/Link.astro";
+import LetsConnect from "@components/LetsConnect.astro";
 ---
 
 <Layout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
   <Container>
     <aside data-pagefind-ignore>
-      <h1 class="animate font-semibold text-black dark:text-white">About Me</h1>
+      <h1 class="animate font-semibold">About Me</h1>
       <div class="space-y-16">
-        <section>
+        <section class="animate space-y-6">
           <article class="space-y-4">
             <img
               src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/database-1717263783-0.webp"
@@ -87,9 +88,10 @@ import Link from "@components/Link.astro";
 
             <span class="animate">
               <p>
-                Hello, my name is Miguel Pimentel. I am a self-taught hobby
-                developer with too many ideas and not enough time. I was born in
-                the Dominican Republic, and currently live in Minnesota, US.
+                Hello, my name is Miguel Pimentel. I am an engineering project
+                manager and self-taught hobby developer with too many ideas and
+                not enough time. I was born in the Dominican Republic, and
+                currently live in Minnesota, US.
               </p>
               <p>
                 I think a lot, work a lot, have existential crises, and know
@@ -99,10 +101,10 @@ import Link from "@components/Link.astro";
               </p>
             </span>
           </article>
+        </section>
 
-          <h2 class="font-semibold text-black dark:text-white">
-            Chronic Curiosity
-          </h2>
+        <section class="animate space-y-6">
+          <h2 class="font-semibold">Chronic Curiosity</h2>
           <article class="space-y-4">
             <span class="animate">
               <p>
@@ -142,36 +144,42 @@ import Link from "@components/Link.astro";
               </p>
             </span>
           </article>
+        </section>
 
-          <h2 class="font-semibold text-black dark:text-white"> My Day Job </h2>
+        <section class="animate space-y-6">
+          <h2 class="font-semibold">My Day Job</h2>
           <article class="space-y-4">
             <span class="animate">
               <p>
-                Professionally, I work as an <b>
-                  Assistant Contract Administrator
-                </b>
-                for <Link href="https://www.metrotransit.org/"
-                  >Metro Transit
-                </Link>, I oversee projects through their installation,
-                construction, and commissioning phases. On a day-to-day basis, I
-                manage multiple projects that tie in one way or another to the
-                public transportation system of the Twin Cities' metro area in
-                Minnesota. Learn more about my projects by visiting the <Link
-                  href="/projects/"
-                  >projects
-                </Link> page.
+                Professionally, I work as an <strong>
+                  Engineering Project Manager
+                </strong>
+                for the <Link href="https://www.crystalmn.gov/"
+                  >City of Crystal</Link
+                >. Some of my duties include preparing detailed plans,
+                specifications, solicitations, proposals for bids, and cost
+                estimates; managing contracts from bid solicitation through
+                project completion; and inspecting ongoing and completed
+                construction for compliance with those specifications. I also
+                help maintain accurate project records, review as-built plans,
+                and oversee right-of-way management and permitting. My role
+                involves working closely with various private and public
+                agencies, utilizing GIS and CAD systems, and assisting with <Link
+                  href="https://www.jwcontap.org/">Joint Water Commission</Link
+                > and <Link href="https://bwsr.state.mn.us/watershed-districts"
+                  >Watershed District</Link
+                > functions.
               </p>
               <p>
-                With over 10 years of experience in public construction, I have
-                amassed a number of unique projects and experiences that cover
-                many different fields. It all started when I got my first job as
-                a Civil Engineering Technician for a contracting company near my
+                With over 10 years of experience in construction, I have amassed
+                a number of unique projects and experiences that cover many
+                different fields. It all started when I got my first job as a
+                Civil Engineering Technician for a contracting company near my
                 university. I was at the time attending
                 <Link href="https://www.intec.edu.do/">INTEC</Link> while pursuing
                 a Bachelor's in Civil Engineering. Unfortunately, I was unable to
                 finish my college education due to personal reasons.
               </p>
-
               <p>
                 Nevertheless, today I thrive having experience in not only
                 public infrastructure, but technology, electrical, rail, and bus
@@ -185,44 +193,9 @@ import Link from "@components/Link.astro";
               </p>
             </span>
           </article>
-
-          <section class="animate space-y-4">
-            <h2 class="font-semibold text-black dark:text-white">
-              Let's Connect
-            </h2>
-            <article>
-              <p> If you'd like to reach out, here are a few options: </p>
-            </article>
-            <ul class="not-prose flex flex-wrap gap-2">
-              {
-                SOCIALS.map((SOCIAL) => (
-                  <li class="flex gap-x-2 text-nowrap">
-                    <Link
-                      href={SOCIAL.HREF}
-                      external
-                      aria-label={`${SITE.TITLE} on ${SOCIAL.NAME}`}
-                    >
-                      {SOCIAL.NAME}
-                    </Link>
-                    {"/"}
-                  </li>
-                ))
-              }
-              <li class="line-clamp-1">
-                <Link
-                  href={`mailto:${SITE.EMAIL}`}
-                  aria-label={`Email ${SITE.TITLE}`}
-                >
-                  Email
-                </Link>
-              </li>
-            </ul>
-            <p>
-              You would probably find me in other places, too, provided you look
-              hard enough.
-            </p>
-          </section>
         </section>
+
+        <LetsConnect />
       </div>
     </aside>
   </Container>

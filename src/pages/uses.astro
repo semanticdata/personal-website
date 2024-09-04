@@ -1,14 +1,15 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import { SITE, USES, SOCIALS } from "@consts";
+import { USES } from "@consts";
 import Link from "@components/Link.astro";
+import LetsConnect from "@components/LetsConnect.astro";
 ---
 
 <Layout title={USES.TITLE} description={USES.DESCRIPTION}>
   <Container>
     <aside data-pagefind-ignore>
-      <h1 class="animate font-semibold text-black dark:text-white">Uses</h1>
+      <h1 class="animate font-semibold">Uses</h1>
       <div class="space-y-16">
         <section class="animate space-y-4">
           <article class="space-y-4">
@@ -26,7 +27,7 @@ import Link from "@components/Link.astro";
         </section>
 
         <section class="animate space-y-4">
-          <h2 class="font-semibold text-black dark:text-white">Hardware</h2>
+          <h2 class="font-semibold">Hardware</h2>
           <article class="space-y-4">
             <span class="animate">
               <ul>
@@ -54,7 +55,7 @@ import Link from "@components/Link.astro";
         </section>
 
         <section class="animate space-y-4">
-          <h2 class="font-semibold text-black dark:text-white">Software</h2>
+          <h2 class="font-semibold">Software</h2>
           <article class="space-y-4">
             <span class="animate">
               <ul>
@@ -82,9 +83,7 @@ import Link from "@components/Link.astro";
         </section>
 
         <section class="animate space-y-4">
-          <h3 class="font-semibold text-black dark:text-white">
-            Notable Visual Studio Code Extensions
-          </h3>
+          <h3 class="font-semibold">Notable Visual Studio Code Extensions</h3>
           <article class="space-y-4">
             <span class="animate">
               <ul>
@@ -144,9 +143,7 @@ import Link from "@components/Link.astro";
         </section>
 
         <section class="animate space-y-4">
-          <h3 class="font-semibold text-black dark:text-white">
-            Notable Obsidian Extensions
-          </h3>
+          <h3 class="font-semibold">Notable Obsidian Extensions</h3>
           <article class="space-y-4">
             <span class="animate">
               <ul>
@@ -200,9 +197,7 @@ import Link from "@components/Link.astro";
         </section>
 
         <section class="animate space-y-4">
-          <h3 class="font-semibold text-black dark:text-white">
-            Notable Windows Programs
-          </h3>
+          <h3 class="font-semibold">Notable Windows Programs</h3>
           <article class="space-y-4">
             <span class="animate">
               <ul>
@@ -236,82 +231,254 @@ import Link from "@components/Link.astro";
           </article>
         </section>
 
-
         <section class="animate space-y-4">
-          <h2 class="font-semibold text-black dark:text-white">
-            Tools & Technologies
-          </h2>
+          <h2 class="font-semibold">Tools & Technologies</h2>
           <article class="space-y-4">
-
-            <a class="badge-link" target="_blank" href="https://astro.build/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/astro.svg" alt="astro" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://bulma.io/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/bulma.svg" alt="vite" height="48px" /></a>
-            <a class="badge-link" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/css.svg" alt="css" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://www.docker.com/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/docker.svg" alt="docker" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://11ty.dev/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/eleventy.svg" alt="vite" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://www.git-scm.com/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/git.svg" alt="vite" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://godotengine.org/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/godot.svg" alt="godot" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/html.svg" alt="html" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://typicode.github.io/husky/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/husky.svg" alt="husky" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/javascript.svg" alt="javascript" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://love2d.org/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/love.ico" alt="vite" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://lua.org/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/lua.svg" alt="lua" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://www.markdownguide.org/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/markdown.svg" alt="markdown" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://neovim.io/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/neovim.svg" alt="vite" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://mozilla.github.io/nunjucks/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/nunjucks.svg" alt="nunjucks" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://obsidian.md/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/obsidian.svg" alt="obsidian" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://pnpm.io/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/pnpm.svg" alt="pnpm" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://postcss.org/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/postcss.svg" alt="postcss" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://prettier.io/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/prettier.svg" alt="prettier" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://www.python.org/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/python.svg" alt="vite" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://sass-lang.com/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/sass.svg" alt="sass" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://svelte.dev/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/svelte.svg" alt="svelte" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://tailwindcss.com/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/tailwindcss.svg" alt="vite" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://www.typescriptlang.org/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/typescript.svg" alt="typescript" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://vitejs.dev/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/vite.svg" alt="vite" width="36px" /></a>
-            <a class="badge-link" target="_blank" href="https://www.getzola.org/"><img class="badge-icon" src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/zola.ico" alt="vite" width="36px" /></a>
-
+            <a class="badge-link" target="_blank" href="https://astro.build/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/astro.svg"
+                alt="astro"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://bulma.io/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/bulma.svg"
+                alt="vite"
+                height="48px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/css.svg"
+                alt="css"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://www.docker.com/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/docker.svg"
+                alt="docker"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://11ty.dev/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/eleventy.svg"
+                alt="vite"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://www.git-scm.com/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/git.svg"
+                alt="vite"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://godotengine.org/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/godot.svg"
+                alt="godot"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/html.svg"
+                alt="html"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://typicode.github.io/husky/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/husky.svg"
+                alt="husky"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/javascript.svg"
+                alt="javascript"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://love2d.org/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/love.ico"
+                alt="vite"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://lua.org/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/lua.svg"
+                alt="lua"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://www.markdownguide.org/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/markdown.svg"
+                alt="markdown"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://neovim.io/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/neovim.svg"
+                alt="vite"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://mozilla.github.io/nunjucks/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/nunjucks.svg"
+                alt="nunjucks"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://obsidian.md/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/obsidian.svg"
+                alt="obsidian"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://pnpm.io/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/pnpm.svg"
+                alt="pnpm"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://postcss.org/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/postcss.svg"
+                alt="postcss"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://prettier.io/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/prettier.svg"
+                alt="prettier"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://www.python.org/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/python.svg"
+                alt="vite"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://sass-lang.com/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/sass.svg"
+                alt="sass"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://svelte.dev/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/svelte.svg"
+                alt="svelte"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://tailwindcss.com/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/tailwindcss.svg"
+                alt="vite"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://www.typescriptlang.org/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/typescript.svg"
+                alt="typescript"
+                width="36px"
+              /></a
+            >
+            <a class="badge-link" target="_blank" href="https://vitejs.dev/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/vite.svg"
+                alt="vite"
+                width="36px"
+              /></a
+            >
+            <a
+              class="badge-link"
+              target="_blank"
+              href="https://www.getzola.org/"
+              ><img
+                class="badge-icon"
+                src="https://raw.githubusercontent.com/semanticdata/semanticdata/main/assets/icons/zola.ico"
+                alt="vite"
+                width="36px"
+              /></a
+            >
           </article>
         </section>
 
-
-        <section class="animate space-y-4">
-          <h2 class="font-semibold text-black dark:text-white">
-            Let's Connect
-          </h2>
-          <article class="space-y-4">
-            <span class="animate">
-              <p>
-                If you want to get in touch with me about something or just to
-                say hi, reach out on social media or send me an email.
-              </p>
-
-              <ul class="not-prose flex flex-wrap gap-2">
-                {
-                  SOCIALS.map((SOCIAL) => (
-                    <li class="flex gap-x-2 text-nowrap">
-                      <Link
-                        href={SOCIAL.HREF}
-                        external
-                        aria-label={`${SITE.TITLE} on ${SOCIAL.NAME}`}
-                      >
-                        {SOCIAL.NAME}
-                      </Link>
-                      {"/"}
-                    </li>
-                  ))
-                }
-                <li class="line-clamp-1">
-                  <Link
-                    href={`mailto:${SITE.EMAIL}`}
-                    aria-label={`Email ${SITE.TITLE}`}
-                  >
-                    Email
-                  </Link>
-                </li>
-              </ul>
-            </span>
-          </article>
-        </section>
+        <LetsConnect />
       </div>
     </aside>
   </Container>

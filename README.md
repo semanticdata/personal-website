@@ -1,14 +1,18 @@
-# [🦝 MiguelPimentel.do](https://miguelpimentel.do/)
+<h1><img alt="favicon" src="/public/favicon.svg" height="28" /> <a href="https://miguelpimentel.do/">MiguelPimentel.do</a></h1>
 
-Personal website and blog. Contains a short list of my projects, blog posts, and tutorials. Built using [Astro Micro 🔬](https://astro-micro.vercel.app/).
+Personal website and blog. Contains a short list of my projects, blog posts, and tutorials.
 
-A few adjustments were made to the original theme. Here's a short list:
+Some adjustments have been made to the original [Astro Micro](https://github.com/trevortylerlee/astro-micro) theme. Here's a short list:
 
-- Used "Email" instead of the actual email address under the "Let's Connect" section.
 - Created new "About" page.
 - Created new "Uses" page.
 - Created new "Tutorials" section.
+- Created new `LetsConnect.astro` component using the "Let's Connect" section.
+- Used "Email" instead of the actual email address under the "Let's Connect" section.
 
-## © License
+Here's an overview of how the site performs:
 
-The code in this project is available under the [MIT License](LICENSE).
+| ![Pagespeed results](pagespeed-mp.svg) |
+| --- |
+
+The code in this repository is available under the [MIT License](LICENSE).
