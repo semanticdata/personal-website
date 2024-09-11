@@ -9,10 +9,11 @@ Some adjustments have been made to the original [Astro Micro](https://github.com
 - Created new "Tutorials" section.
 - Created new `LetsConnect.astro` component using the "Let's Connect" section.
 - Used "Email" instead of the actual email address under the "Let's Connect" section.
+- Changed fonts to 'Inter' and 'Fira Code'.
 
 Here's an overview of how the site performs:
 
 | ![Pagespeed results](pagespeed-mp.svg) |
-| --- |
+| -------------------------------------- |
 
 The code in this repository is available under the [MIT License](LICENSE).
