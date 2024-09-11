@@ -5,7 +5,7 @@ import Container from "@components/Container.astro";
 import FormattedDate from "@components/FormattedDate.astro";
 import { readingTime } from "@lib/utils";
 import BackToPrevious from "@components/BackToPrevious.astro";
-import PostNavigation from "@components/PostNavigation.astro";
+import TutorialNavigation from "@components/TutorialNavigation.astro";
 import TableOfContents from "@components/TableOfContents.astro";
 // import Giscus from "@components/Giscus.astro";
 
@@ -74,7 +74,7 @@ const { Content, headings } = await post.render();
     <article class="animate">
       <Content />
       <div class="mt-24">
-        <PostNavigation prevPost={prevPost} nextPost={nextPost} />
+        <TutorialNavigation prevPost={prevPost} nextPost={nextPost} />
       </div>
       <!--<div class="mt-24">-->
       <!--  <Giscus />-->
