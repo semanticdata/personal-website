@@ -63,75 +63,373 @@ Based on price per $1. Selected $0.10 as the baseline after averaging some calcu
 
 ## NVMe M.2 2280 M Key
 
-| Brand        | Storage | Price | Notes      |
-| :----------: | :-----: | :---: | :--------: |
-| 970 EVO Plus | 500 GB  |  $35  | MLC V-NAND |
-| 970 EVO Plus |  2 TB   | $100  | MLC V-NAND |
-| 970 EVO Plus |  1 TB   |  $50  | V-NAND     |
-| 980          |  1 TB   |  $50  | MLC V-NAND |
-| 980 Pro      |  2 TB   | $120  | MLC V-NAND |
-| 980 Pro      |  1 TB   |  $70  | V-NAND     |
-| 990 PRO      |  1 TB   |  $80  | MLC V-NAND |
-| Crucial P3   |  1 TB   |  $40  | 3D NAND    |
-| Inland       | 500 GB  |  $23  | QLC        |
-| Inland       |  1 TB   |  $40  | QLC        |
-| Inland       |  2 TB   |  $70  | QLC        |
-| Performance  |  1 TB   |  $55  | TLC        |
-| Prime        | 500 GB  |  $30  | TLC        |
-| Prime        |  1 TB   |  $50  | TLC        |
+<table>
+  <thead>
+    <tr>
+      <th data-label="Brand">Brand</th>
+      <th data-label="Storage">Storage</th>
+      <th data-label="Price">Price</th>
+      <th data-label="Notes">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Brand">970 EVO Plus</td>
+      <td data-label="Storage">500 GB</td>
+      <td data-label="Price">$35</td>
+      <td data-label="Notes">MLC V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">970 EVO Plus</td>
+      <td data-label="Storage">2 TB</td>
+      <td data-label="Price">$100</td>
+      <td data-label="Notes">MLC V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">970 EVO Plus</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$50</td>
+      <td data-label="Notes">V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">980</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$50</td>
+      <td data-label="Notes">MLC V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">980 Pro</td>
+      <td data-label="Storage">2 TB</td>
+      <td data-label="Price">$120</td>
+      <td data-label="Notes">MLC V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">980 Pro</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$70</td>
+      <td data-label="Notes">V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">990 PRO</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$80</td>
+      <td data-label="Notes">MLC V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Crucial P3</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$40</td>
+      <td data-label="Notes">3D NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Inland</td>
+      <td data-label="Storage">500 GB</td>
+      <td data-label="Price">$23</td>
+      <td data-label="Notes">QLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Inland</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$40</td>
+      <td data-label="Notes">QLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Inland</td>
+      <td data-label="Storage">2 TB</td>
+      <td data-label="Price">$70</td>
+      <td data-label="Notes">QLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Performance</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$55</td>
+      <td data-label="Notes">TLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Prime</td>
+      <td data-label="Storage">500 GB</td>
+      <td data-label="Price">$30</td>
+      <td data-label="Notes">TLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Prime</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$50</td>
+      <td data-label="Notes">TLC</td>
+    </tr>
+  </tbody>
+</table>
 
 ## SSD
 
-| Brand        | Storage | Price | Notes      |
-| :----------: | :-----: | :---: | :--------: |
-| Inland       |  1 TB   |  $50  | TLC        |
-| Inland       | 512 GB  |  $25  | TLC        |
-| Platinum     |  2 TB   |  $80  | TLC        |
-| Platinum     |  1 TB   |  $43  | TLC        |
-| Professional | 256 GB  |  $20  | 3D NAND    |
-| Professional | 125 GB  |  $15  | TLC        |
-| 870 EVO      |  1 TB   |  $50  | MLC V-NAND |
-| 870 EVO      |  4 TB   | $220  | MLC V-NAND |
-| 870 EVO      | 500 GB  |  $40  | MLC V-NAND |
-| 870 QVO      |  1 TB   |  $70  | QLC V-NAND |
+<table>
+  <thead>
+    <tr>
+      <th data-label="Brand">Brand</th>
+      <th data-label="Storage">Storage</th>
+      <th data-label="Price">Price</th>
+      <th data-label="Notes">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Brand">Inland</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$50</td>
+      <td data-label="Notes">TLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Inland</td>
+      <td data-label="Storage">512 GB</td>
+      <td data-label="Price">$25</td>
+      <td data-label="Notes">TLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Platinum</td>
+      <td data-label="Storage">2 TB</td>
+      <td data-label="Price">$80</td>
+      <td data-label="Notes">TLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Platinum</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$43</td>
+      <td data-label="Notes">TLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Professional</td>
+      <td data-label="Storage">256 GB</td>
+      <td data-label="Price">$20</td>
+      <td data-label="Notes">3D NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">Professional</td>
+      <td data-label="Storage">125 GB</td>
+      <td data-label="Price">$15</td>
+      <td data-label="Notes">TLC</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">870 EVO</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$50</td>
+      <td data-label="Notes">MLC V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">870 EVO</td>
+      <td data-label="Storage">4 TB</td>
+      <td data-label="Price">$220</td>
+      <td data-label="Notes">MLC V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">870 EVO</td>
+      <td data-label="Storage">500 GB</td>
+      <td data-label="Price">$40</td>
+      <td data-label="Notes">MLC V-NAND</td>
+    </tr>
+    <tr>
+      <td data-label="Brand">870 QVO</td>
+      <td data-label="Storage">1 TB</td>
+      <td data-label="Price">$70</td>
+      <td data-label="Notes">QLC V-NAND</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Final Scores
 
 ### NVMe
 
-| Description              | $ / GB | Coef | Score |
-| :----------------------: | :----: | :--: | :---: |
-| 970 500 GB $35 MLC       | 0.070  | 1.25 |  629  |
-| 970 2 TB $100 MLC        | 0.050  | 1.25 | 2506  |
-| 970 1 TB $100 MLC        | 0.103  | 1.25 | 1250  |
-| 980 1 TB $50 V           | 0.050  |  1   | 1005  |
-| 980P 2 TB $120 MLC       | 0.060  | 1.25 | 2505  |
-| 980P 1 TB $70 V          | 0.070  |  1   | 1003  |
-| 990P 1 TB $80 MLC        | 0.080  | 1.25 | 1253  |
-| Crucial 1 TB $40 3D      | 0.040  | 0.5  |  503  |
-| Inland 500 GB $23 QLC    | 0.046  | 0.75 |  379  |
-| Inland 1 TB $40 QLC      | 0.040  | 0.75 |  755  |
-| Inland 2 TB $70 QLC      | 0.035  | 0.75 | 1505  |
-| Performance 1 TB $55 TLC | 0.055  |  1   | 1005  |
-| Prime 500 GB $30 TLC     | 0.060  |  1   |  504  |
-| Prime 1 TB $50 TLC       | 0.050  |  1   | 1005  |
+<table>
+  <thead>
+    <tr>
+      <th data-label="Description">Description</th>
+      <th data-label="$ / GB">$ / GB</th>
+      <th data-label="Coef">Coef</th>
+      <th data-label="Score">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Description">970 500 GB $35 MLC</td>
+      <td data-label="$ / GB">0.070</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">629</td>
+    </tr>
+    <tr>
+      <td data-label="Description">970 2 TB $100 MLC</td>
+      <td data-label="$ / GB">0.050</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">2506</td>
+    </tr>
+    <tr>
+      <td data-label="Description">970 1 TB $100 MLC</td>
+      <td data-label="$ / GB">0.103</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">1250</td>
+    </tr>
+    <tr>
+      <td data-label="Description">980 1 TB $50 V</td>
+      <td data-label="$ / GB">0.050</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">1005</td>
+    </tr>
+    <tr>
+      <td data-label="Description">980P 2 TB $120 MLC</td>
+      <td data-label="$ / GB">0.060</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">2505</td>
+    </tr>
+    <tr>
+      <td data-label="Description">980P 1 TB $70 V</td>
+      <td data-label="$ / GB">0.070</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">1003</td>
+    </tr>
+    <tr>
+      <td data-label="Description">990P 1 TB $80 MLC</td>
+      <td data-label="$ / GB">0.080</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">1253</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Crucial 1 TB $40 3D</td>
+      <td data-label="$ / GB">0.040</td>
+      <td data-label="Coef">0.5</td>
+      <td data-label="Score">503</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Inland 500 GB $23 QLC</td>
+      <td data-label="$ / GB">0.046</td>
+      <td data-label="Coef">0.75</td>
+      <td data-label="Score">379</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Inland 1 TB $40 QLC</td>
+      <td data-label="$ / GB">0.040</td>
+      <td data-label="Coef">0.75</td>
+      <td data-label="Score">755</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Inland 2 TB $70 QLC</td>
+      <td data-label="$ / GB">0.035</td>
+      <td data-label="Coef">0.75</td>
+      <td data-label="Score">1505</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Performance 1 TB $55 TLC</td>
+      <td data-label="$ / GB">0.055</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">1005</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Prime 500 GB $30 TLC</td>
+      <td data-label="$ / GB">0.060</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">504</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Prime 1 TB $50 TLC</td>
+      <td data-label="$ / GB">0.050</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">1005</td>
+    </tr>
+  </tbody>
+</table>
 
 \*_Higher is better._
 
 ### SSD
 
-| Description               | $ / GB | Coef | Score |
-| :-----------------------: | :----: | :--: | :---: |
-| Inland 1TB $50 TLC        | 0.050  |  1   | 1005  |
-| Inland 512GB $25 TLC      | 0.049  |  1   |  517  |
-| Platinum 2TB $80 TLC      | 0.040  |  1   | 2006  |
-| Platinum 1TB $43 TLC      | 0.043  |  1   | 1006  |
-| Professional 256GB $20 3D | 0.078  | 0.5  |  129  |
-| Professional 125GB $15 3D | 0.120  | 0.5  |  63   |
-| 870 EVO 1TB $50 MLC       | 0.050  | 1.25 | 1256  |
-| 870 EVO 4TB $220 MLC      | 0.055  | 1.25 | 5006  |
-| 870 EVO 500GB $40 MLC     | 0.020  | 1.25 |  635  |
-| 870 QVO 1TB $70 QLC       | 0.070  | 0.75 |  753  |
+<table>
+  <thead>
+    <tr>
+      <th data-label="Description">Description</th>
+      <th data-label="$ / GB">$ / GB</th>
+      <th data-label="Coef">Coef</th>
+      <th data-label="Score">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Description">Inland 1TB $50 TLC</td>
+      <td data-label="$ / GB">0.050</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">1005</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Inland 512GB $25 TLC</td>
+      <td data-label="$ / GB">0.049</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">517</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Platinum 2TB $80 TLC</td>
+      <td data-label="$ / GB">0.040</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">2006</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Platinum 1TB $43 TLC</td>
+      <td data-label="$ / GB">0.043</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">1006</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Professional 256GB $20 3D</td>
+      <td data-label="$ / GB">0.078</td>
+      <td data-label="Coef">0.5</td>
+      <td data-label="Score">129</td>
+    </tr>
+    <tr>
+      <td data-label="Description">Professional 125GB $15 3D</td>
+      <td data-label="$ / GB">0.120</td>
+      <td data-label="Coef">0.5</td>
+      <td data-label="Score">63</td>
+    </tr>
+    <tr>
+      <td data-label="Description">970 500 GB $35 MLC</td>
+      <td data-label="$ / GB">0.070</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">629</td>
+    </tr>
+    <tr>
+      <td data-label="Description">970 2 TB $100 MLC</td>
+      <td data-label="$ / GB">0.050</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">2506</td>
+    </tr>
+    <tr>
+      <td data-label="Description">970 1 TB $100 MLC</td>
+      <td data-label="$ / GB">0.103</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">1250</td>
+    </tr>
+    <tr>
+      <td data-label="Description">980 1 TB $50 V</td>
+      <td data-label="$ / GB">0.050</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">1005</td>
+    </tr>
+    <tr>
+      <td data-label="Description">980P 2 TB $120 MLC</td>
+      <td data-label="$ / GB">0.060</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">2505</td>
+    </tr>
+    <tr>
+      <td data-label="Description">980P 1 TB $70 V</td>
+      <td data-label="$ / GB">0.070</td>
+      <td data-label="Coef">1</td>
+      <td data-label="Score">1003</td>
+    </tr>
+    <tr>
+      <td data-label="Description">990P 1 TB $80 MLC</td>
+      <td data-label="$ / GB">0.080</td>
+      <td data-label="Coef">1.25</td>
+      <td data-label="Score">1253</td>
+    </tr>
+  </tbody>
+</table>
 
 \*_Higher is better._
 

@@ -29,3 +29,86 @@
 .badge-icon {
   height: 36px;
 }
+
+/* TABLES - RESPONSIVE */
+/* table {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+} */
+
+/* table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+} */
+
+table tr {
+  border: 1px solid;
+  /* background-color: #f8f8f8; */
+  /* padding: 0.35rem; */
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  /* table caption {
+    font-size: 1.3rem;
+  } */
+
+  table thead {
+    border: none;
+    position: absolute;
+    overflow: hidden;
+    padding: 0;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+  }
+
+  table tr {
+    border: 1px solid;
+    display: block;
+    margin-bottom: 0.625rem;
+    border-bottom: 3px solid;
+  }
+
+  table td {
+    border-bottom: 1px solid;
+    display: block;
+    font-size: 0.8rem;
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
