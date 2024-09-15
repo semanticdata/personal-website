@@ -118,3 +118,10 @@ pre {
 .copy-code:active {
   @apply scale-90 transition-transform;
 }
+
+a.inline-block {
+  @apply text-nice-greens-light hover:text-nice-greens-light/80;
+}
+.dark a.inline-block {
+  @apply text-nice-greens-dark hover:text-nice-greens-dark/80;
+}
