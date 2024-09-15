@@ -4,12 +4,13 @@ Personal website and blog. Contains a short list of my projects, blog posts, and
 
 Some adjustments have been made to the original [Astro Micro](https://github.com/trevortylerlee/astro-micro) theme. Here's a short list:
 
-- Created new "About" page.
-- Created new "Uses" page.
-- Created new "Tutorials" section.
-- Created new `LetsConnect.astro` component using the "Let's Connect" section.
-- Used "Email" instead of the actual email address under the "Let's Connect" section.
-- Changed fonts to 'Inter' and 'Fira Code'.
+- ✅ Create new "About" page.
+- ✅ Create new "Uses" page.
+- ✅ Create new "Tutorials" section.
+- ✅ Create new `LetsConnect.astro` component using the "Let's Connect" section.
+- ✅ Use "Email" instead of the actual email address under the "Let's Connect" section.
+- ✅ Change fonts to 'Inter' and 'Fira Code'.
+- ✅ Widen the `Container` and `PageFind` components from `max-w-screen-sm` to `max-w-screen-md`.
 
 Here's an overview of how the site performs:
 
