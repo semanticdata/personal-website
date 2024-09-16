@@ -9,6 +9,14 @@ export default {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         mono: ["Fira Code", ...defaultTheme.fontFamily.mono],
       },
+      colors: {
+        "nice-green": "#9BE895",
+        "nice-greens": {
+          light: "#14532d",
+          DEFAULT: '#06b6d4',
+          dark: "#9BE895",
+        },
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

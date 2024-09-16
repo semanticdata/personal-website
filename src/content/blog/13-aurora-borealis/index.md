@@ -19,18 +19,78 @@ Solar activity stayed at normal levels, so only the usual locations were able to
 
 Take a look at these locations sorted by distance.
 
-| Location | Distance | Travel Time | Rank\* |
-| :--- | :---: | :---: | :---: |
-| Minneapolis | 16 miles | 25 minutes | 0 |
-| Bloomington | 2 miles | 5 minutes | 1 |
-| Chaska | 15 miles | 20 minutes | 2 |
-| Farmington | 24 miles | 35 minutes | 3 |
-| Jordan | 22 miles | 25 minutes | 4 |
-| Norwood | 35 miles | 40 minutes | 5 |
-| Gaylord | 55 miles | 60 minutes | 6 |
-| Rapidan | 75 miles | 75 minutes | 7 |
-| Chengwatana | 95 miles | 90 minutes | 8 |
-| Sacred Heart | 105 miles | 120 minutes | 9 |
+<table>
+  <thead>
+    <tr>
+      <th data-label="Location">Location</th>
+      <th data-label="Distance">Distance</th>
+      <th data-label="Travel Time">Travel Time</th>
+      <th data-label="Rank*">Rank*</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Location">Minneapolis</td>
+      <td data-label="Distance">16 miles</td>
+      <td data-label="Travel Time">25 minutes</td>
+      <td data-label="Rank*">0</td>
+    </tr>
+    <tr>
+      <td data-label="Location">Bloomington</td>
+      <td data-label="Distance">2 miles</td>
+      <td data-label="Travel Time">5 minutes</td>
+      <td data-label="Rank*">1</td>
+    </tr>
+    <tr>
+      <td data-label="Location">Chaska</td>
+      <td data-label="Distance">15 miles</td>
+      <td data-label="Travel Time">20 minutes</td>
+      <td data-label="Rank*">2</td>
+    </tr>
+    <tr>
+      <td data-label="Location">Farmington</td>
+      <td data-label="Distance">24 miles</td>
+      <td data-label="Travel Time">35 minutes</td>
+      <td data-label="Rank*">3</td>
+    </tr>
+    <tr>
+      <td data-label="Location">Jordan</td>
+      <td data-label="Distance">22 miles</td>
+      <td data-label="Travel Time">25 minutes</td>
+      <td data-label="Rank*">4</td>
+    </tr>
+    <tr>
+      <td data-label="Location">Norwood</td>
+      <td data-label="Distance">35 miles</td>
+      <td data-label="Travel Time">40 minutes</td>
+      <td data-label="Rank*">5</td>
+    </tr>
+    <tr>
+      <td data-label="Location">Gaylord</td>
+      <td data-label="Distance">55 miles</td>
+      <td data-label="Travel Time">60 minutes</td>
+      <td data-label="Rank*">6</td>
+    </tr>
+    <tr>
+      <td data-label="Location">Rapidan</td>
+      <td data-label="Distance">75 miles</td>
+      <td data-label="Travel Time">75 minutes</td>
+      <td data-label="Rank*">7</td>
+    </tr>
+    <tr>
+      <td data-label="Location">Chengwatana</td>
+      <td data-label="Distance">95 miles</td>
+      <td data-label="Travel Time">90 minutes</td>
+      <td data-label="Rank*">8</td>
+    </tr>
+    <tr>
+      <td data-label="Location">Sacred Heart</td>
+      <td data-label="Distance">105 miles</td>
+      <td data-label="Travel Time">120 minutes</td>
+      <td data-label="Rank*">9</td>
+    </tr>
+  </tbody>
+</table>
 
 \* Higher Rank is considered better.
 
