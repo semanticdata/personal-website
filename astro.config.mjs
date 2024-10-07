@@ -6,7 +6,6 @@ import sitemap from "@astrojs/sitemap";
 import pagefind from "astro-pagefind";
 
 import metaTags from "astro-meta-tags";
-import pageInsight from "astro-page-insight";
 import tailwindConfigViewer from "astro-tailwind-config-viewer";
 
 // https://astro.build/config
@@ -18,7 +17,6 @@ export default defineConfig({
     mdx(),
     pagefind(),
     metaTags(),
-    pageInsight(),
     tailwindConfigViewer(),
   ],
   markdown: {

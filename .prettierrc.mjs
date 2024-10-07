@@ -3,8 +3,7 @@
 export default {
   plugins: [
     "prettier-plugin-astro",
-    "prettier-plugin-organize-imports",
-    "prettier-plugin-tailwindcss",
+    "prettier-plugin-tailwindcss"
   ],
   overrides: [
     {
