@@ -17,7 +17,6 @@ export default defineConfig({
     mdx(),
     pagefind(),
     metaTags(),
-    pageInsight(),
     tailwindConfigViewer(),
   ],
   markdown: {
