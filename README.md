@@ -17,7 +17,7 @@ Some adjustments have been made to the original [Astro Micro](https://github.com
 
 Here's an overview of how the site performs:
 
-| ![Pagespeed results](pagespeed-mp.svg) |
-| -------------------------------------- |
+| ![PageSpeed Insights Results](pagespeed-mp.svg) |
+| ----------------------------------------------- |
 
 The code in this repository is available under the [MIT License](LICENSE).
