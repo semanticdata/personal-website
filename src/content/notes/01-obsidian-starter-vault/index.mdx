@@ -1,0 +1,103 @@
+---
+title: "🔮 Obsidian Starter Vaultt"
+description: "Opinionated Obsidian starter vault—a compilation of extensions and settings to help you learn and start exploring Obsidian."
+date: "2024-02-23"
+demoURL: ""
+repoURL: "https://github.com/semanticdata/obsidian-starter-vault"
+draft: false
+---
+
+import Link from "@/components/Link.astro";
+
+<p>
+  An opinionated <Link href="https://obsidian.md/">Obsidian</Link> starter vault. It holds a compilation of extensions and settings to help you learn and start exploring Obsidian.
+</p>
+
+## 🦋 Appearance
+
+The starter uses the [Minimal Theme](https://github.com/kepano/obsidian-minimal) including extra configurations and settings via the [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal) plugin.
+
+### 👨🏼‍💻 CSS Snippets
+
+You will find a small subset of useful CSS snippets included with the starter. Here's a quick breakdown of what each one does:
+
+* Compact Tab Header - Arranges items in Tab header into groups.
+* Default Style Settings - Adds the option to customize Obsidian further.
+* Frontmatter Tweaks - Improves the legibility of Frontmatter elements.
+* MySnippets Tweaks - Essential UI setting while using [MySnippets](https://github.com/chetachiezikeuzor/MySnippets-Plugin) Plugin.
+* Normalize Links - Removes decoration from external links.
+* Status bar Tweaks - Improves legibility of the Status bar.
+* Table Tweaks - Improves legibility of Tables.
+* Typography Fixes - Normalizes styling and typography.
+
+## 🤝🏼 Community Plugins
+
+This starter vault uses the following [community plugins](https://obsidian.md/plugins):
+
+<ul>
+<li><Link href="https://github.com/tgrosinger/advanced-tables-obsidian">Advance Tables</Link> - Improved navigation, formatting, and manipulation to markdown tables.</li>
+<li><Link href="https://github.com/liamcain/obsidian-calendar-plugin">Calendar</Link> - Integrates Daily Notes. Let's you visit any Daily Notes with ease.</li>
+<li><Link href="https://github.com/Qwyntex/doubleshift">Doubleshift</Link> - Press <kbd>shift</kbd> or <kbd>ctrl</kbd> twice and activate custom actions.</li>
+<li><Link href="https://github.com/timhor/obsidian-editor-shortcuts">Editor Shortcuts</Link> - Adds Hotkeys commonly found in other common code editors.</li>
+<li><Link href="https://github.com/olrenso/obsidian-home-tab">Home Tab</Link> - Integrates recent notes and Omnisearch.</li>
+<li><Link href="https://github.com/platers/obsidian-linter">Linter</Link> - Format and style notes. Akin to something like Prettier.</li>
+<li><Link href="https://github.com/kepano/obsidian-minimal-settings">Minimal Settings</Link> - Allows you to customize the minimal theme settings panel.</li>
+<li><Link href="https://github.com/czottmann/obsidian-mononote">Mononote</Link> - Ensures each note occupies only one tab.</li>
+<li><Link href="https://github.com/chetachiezikeuzor/MySnippets-Plugin">MySnippets</Link> - Adds a status bar menu allowing the user to quickly manage their snippets.</li>
+<li><Link href="https://github.com/argenos/nldates-obsidian">Natural Language Dates</Link> - Allows `@today` style shortcuts.</li>
+<li><Link href="https://github.com/scambier/obsidian-omnisearch">Omnisearch</Link> - Better search. Period.</li>
+<li><Link href="https://github.com/javalent/settings-search">Settings Search</Link> - Adds a search bar to Obsidian settings.</li>
+<li><Link href="https://github.com/mgmeyers/obsidian-style-settings">Style Settings</Link> - Allows snippet, theme, and plugin CSS files define as a set of config options.</li>
+<li><Link href="https://github.com/mahyarmirrashed/yaos">YAOS - Yet Another Obsidian Synchronizer</Link> - Sync your vault to GitHub.</li>
+</ul>
+
+## 📂 File Structure
+
+```
+root
+├── assets/
+├── journals/
+│   └── first-journal.md
+├── templates
+│   └── daily-journal.md
+└── README.md
+```
+
+## 🔁 Workflows
+
+### Formatting Text
+
+The _Markdown Linter_ plugin is configured to <ins>lint on save</ins> for a smoother typing experience. This means every time you press <kbd>Ctrl</kbd> + <kbd>S</kbd>, it will **format the note** as well as save it.
+
+### Search
+
+* You may open the _Command Palette_ by pressing `Ctrl` `Ctrl` in rapid succession.
+* You may start _Omnisearch: Search Vault_ by pressing `Shift` `Shift` in rapid succession.
+* Reassigned <kbd>Ctrl</kbd> + <kbd>F</kbd> to _Omnisearch: In File Search_.
+* Reassigned <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> to _Omnisearch: Search Vault_.
+
+### Editor Shortcuts
+
+| Action                   | Keybinding           |
+| ------------------------ | -------------------- |
+| Move line up             | <kbd>Alt</kbd> + <kbd>Up</kbd>           |
+| Move line down           | <kbd>Alt</kbd> + <kbd>Down</kbd>         |
+| Copy line above          | <kbd>Alt</kbd> + <kbd>Shift + Up</kbd>   |
+| Copy line below          | <kbd>Alt</kbd> + <kbd>shift + Down</kbd> |
+| Select word / selection  | <kbd>Ctrl</kbd> + <kbd>D</kbd>           |
+| Select line (repeatable) | <kbd>Ctrl</kbd> + <kbd>L</kbd>           |
+
+### 🌄 Natural Language Dates
+
+Autocomplete and link natural language expressions to daily notes.
+
+Examples:
+
+* `@today`
+* `@tomorrow`
+* `@next week`
+
+## © License
+
+<p>Source code in this project is available under the
+  <Link href="https://github.com/semanticdata/obsidian-starter-vault/blob/main/LICENSE">MIT License</Link>.</p>
