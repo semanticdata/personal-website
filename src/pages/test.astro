@@ -1,6 +1,6 @@
 ---
 import Layout from "@layouts/LayoutAlt.astro";
-import Container from "@components/Container.astro";
+import Container from "@components/ContainerAlt.astro";
 import { SITE, HOME } from "@consts";
 import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
@@ -30,12 +30,12 @@ const projects: CollectionEntry<"projects">[] = (
 <Layout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
     <aside data-pagefind-ignore>
-      <section class="animate space-y-6 text-center">
+      <!-- <section class="animate space-y-6 text-center">
         <a
           href="https://publicdomainreview.org/collection/maps-of-the-lower-mississippi-harold-fisk/"
           target="_blank"
         >
-          <Image
+          <img
             class="h-auto max-w-full rounded-lg shadow-lg dark:shadow-gray-800"
             src="/banner-mississippi.webp"
             alt="Map drawn by Harold Fisk for the US Army Corps of Engineers"
@@ -44,11 +44,11 @@ const projects: CollectionEntry<"projects">[] = (
             loading="eager"
           /></a
         >
-      </section>
-      
+      </section> -->
+
       <div class="space-y-12">
         <section class="animate space-y-6">
-          <h1 class="animate font-semibold mt-12">Hi, I’m Miguel Pimentel!</h1>
+          <h1 class="animate mt-12 font-semibold">Hi, I’m Miguel Pimentel!</h1>
           <article class="space-y-4">
             <span class="animate">
               <p>
@@ -74,7 +74,8 @@ const projects: CollectionEntry<"projects">[] = (
                 complex problems.
               </p>
               <p>
-                Read more <Link href="/about">about me</Link> or scroll to see some of my most recent work.
+                Read more <Link href="/about">about me</Link> or scroll to see some
+                of my most recent work.
               </p>
             </span>
           </article>
