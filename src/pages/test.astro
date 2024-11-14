@@ -1,0 +1,135 @@
+---
+import Layout from "@layouts/LayoutAlt.astro";
+import Container from "@components/Container.astro";
+import { SITE, HOME } from "@consts";
+import ArrowCard from "@components/ArrowCard.astro";
+import Link from "@components/Link.astro";
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import LetsConnect from "@components/LetsConnect.astro";
+import { Image } from "astro:assets";
+
+const blog = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, SITE.NUM_POSTS_ON_HOMEPAGE);
+
+const tutorials = (await getCollection("tutorials"))
+  .filter((tutorial) => !tutorial.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, SITE.NUM_TUTORIALS_ON_HOMEPAGE);
+
+const projects: CollectionEntry<"projects">[] = (
+  await getCollection("projects")
+)
+  .filter((project) => !project.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE);
+---
+
+<Layout title={HOME.TITLE} description={HOME.DESCRIPTION}>
+  <Container>
+    <aside data-pagefind-ignore>
+      <section class="animate space-y-6 text-center">
+        <a
+          href="https://publicdomainreview.org/collection/maps-of-the-lower-mississippi-harold-fisk/"
+          target="_blank"
+        >
+          <Image
+            class="h-auto max-w-full rounded-lg shadow-lg dark:shadow-gray-800"
+            src="/banner-mississippi.webp"
+            alt="Map drawn by Harold Fisk for the US Army Corps of Engineers"
+            height="295"
+            width="696"
+            loading="eager"
+          /></a
+        >
+      </section>
+      
+      <div class="space-y-12">
+        <section class="animate space-y-6">
+          <h1 class="animate font-semibold mt-12">Hi, I’m Miguel Pimentel!</h1>
+          <article class="space-y-4">
+            <span class="animate">
+              <p>
+                I’m a problem solver, hobby developer, music enthusiast, and
+                public infrastructure advocate based in Minnesota, US. I’m
+                passionate about using technology and creative thinking to
+                tackle challenges, whether it's building better websites or
+                designing efficient urban systems.
+              </p>
+              <p>
+                With a background in engineering project management and a
+                self-taught love for coding, I enjoy blending my technical
+                knowledge with curiosity-driven side projects. When I’m not
+                working, you’ll find me learning new programming languages,
+                experimenting with web development, or digging into the latest
+                trends in public infrastructure.
+              </p>
+              <p>
+                I think a lot, work hard, occasionally have existential crises,
+                and know just enough about making websites to make things
+                interesting. While I love writing, coding, and listening to
+                music, my true motivation lies in finding elegant solutions to
+                complex problems.
+              </p>
+              <p>
+                Read more <Link href="/about">about me</Link> or scroll to see some of my most recent work.
+              </p>
+            </span>
+          </article>
+        </section>
+
+        <section class="animate space-y-6">
+          <div class="flex flex-wrap items-center justify-between gap-y-2">
+            <h2 class="font-semibold">Recent posts</h2>
+            <Link href="/blog"> See all posts </Link>
+          </div>
+          <ul class="not-prose flex flex-col gap-4">
+            {
+              blog.map((post) => (
+                <li>
+                  <ArrowCard entry={post} />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+
+        <section class="animate space-y-6">
+          <div class="flex flex-wrap items-center justify-between gap-y-2">
+            <h2 class="font-semibold">Recent tutorials</h2>
+            <Link href="/tutorials"> See all tutorials </Link>
+          </div>
+          <ul class="not-prose flex flex-col gap-4">
+            {
+              tutorials.map((tutorial) => (
+                <li>
+                  <ArrowCard entry={tutorial} />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+
+        <section class="animate space-y-6">
+          <div class="flex flex-wrap items-center justify-between gap-y-2">
+            <h2 class="font-semibold">Recent projects</h2>
+            <Link href="/projects"> See all projects </Link>
+          </div>
+          <ul class="not-prose flex flex-col gap-4">
+            {
+              projects.map((project) => (
+                <li>
+                  <ArrowCard entry={project} />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+
+        <LetsConnect />
+      </div>
+    </aside>
+  </Container>
+</Layout>
