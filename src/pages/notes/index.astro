@@ -1,0 +1,98 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import ContainerWide from "@components/ContainerWide.astro";
+import NoteCard from "@components/NoteCard.astro";
+import { NOTES } from "@consts";
+
+const notes = (await getCollection("notes"))
+  .filter((note) => !note.data.draft)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const notesNonLetter = notes.filter(
+  (note) => !/^[a-zA-Z]/.test(note.data.title[0]),
+);
+
+const notesAtoM = notes.filter(
+  (note) =>
+    note.data.title[0].toLowerCase() >= "a" &&
+    note.data.title[0].toLowerCase() <= "m",
+);
+
+const notesNtoZ = notes.filter(
+  (note) =>
+    note.data.title[0].toLowerCase() >= "n" &&
+    note.data.title[0].toLowerCase() <= "z",
+);
+---
+
+<Layout title={NOTES.TITLE} description={NOTES.DESCRIPTION}>
+  <ContainerWide>
+    <aside data-pagefind-ignore>
+      <div class="animate space-y-10">
+        <h1 class="font-semibold">Notes - All</h1>
+        <section class="animate space-y-4">
+          <ul
+            class="animate not-prose grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6"
+          >
+            {
+              notes.map((note) => (
+                <li>
+                  <NoteCard entry={note} />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      </div>
+      <div class="animate space-y-10">
+        <h1 class="pt-10 font-semibold">Notes - A to M</h1>
+        <section class="animate space-y-4">
+          <ul
+            class="animate not-prose grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6"
+          >
+            {
+              notesAtoM.map((note) => (
+                <li>
+                  <NoteCard entry={note} />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      </div>
+      <div class="animate space-y-10">
+        <h1 class="pt-10 font-semibold">Notes - N to Z</h1>
+        <section class="animate space-y-4">
+          <ul
+            class="animate not-prose grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6"
+          >
+            {
+              notesNtoZ.map((note) => (
+                <li>
+                  <NoteCard entry={note} />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      </div>
+      <div class="animate space-y-10">
+        <h1 class="pt-10 font-semibold">Notes - Others</h1>
+        <section class="animate space-y-4">
+          <ul
+            class="animate not-prose grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6"
+          >
+            {
+              notesNonLetter.map((note) => (
+                <li>
+                  <NoteCard entry={note} />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      </div>
+    </aside>
+  </ContainerWide>
+</Layout>

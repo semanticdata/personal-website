@@ -41,6 +41,12 @@ export const USES: Metadata = {
     "A collection of tools and technologies I use on a regular basis.",
 };
 
+export const NOTES: Metadata = {
+  TITLE: "Notes",
+  DESCRIPTION:
+    "A collection of notes.",
+};
+
 export const SOCIALS: Socials = [
   {
     NAME: "Mastodon",
