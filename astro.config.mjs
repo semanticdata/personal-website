@@ -6,7 +6,6 @@ import sitemap from "@astrojs/sitemap";
 import pagefind from "astro-pagefind";
 
 import metaTags from "astro-meta-tags";
-import tailwindConfigViewer from "astro-tailwind-config-viewer";
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,7 +16,6 @@ export default defineConfig({
     mdx(),
     pagefind(),
     metaTags(),
-    tailwindConfigViewer(),
   ],
   markdown: {
     shikiConfig: {
